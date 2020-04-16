@@ -8,14 +8,13 @@ const Hero = () => {
   return (
     <div style={{
       position: 'absolute',
-      bottom: TILE_SIZE * 2,
-      left: TILE_SIZE,
+      bottom: TILE_SIZE * 5,
+      left: TILE_SIZE * 4,
       width: TILE_SIZE,
       height: 96,
       backgroundRepeat: 'no-repeat',
-      backgroundImage: 'url(./assets/hero.png)',
-      backgroundPosition: `0px - ${TILE_SIZE}`,
-      animation: 'hero-animation 1s steps(4) infinite'
+      backgroundImage: 'url(./assets/MINI-DEMON.png)',
+      animation: 'mini-demon-animation 1s steps(4) infinite'
     }}
     >
 

@@ -13,9 +13,9 @@ const Hero = () => {
       width: TILE_SIZE,
       height: 96,
       backgroundRepeat: 'no-repeat',
-      backgroundImage: 'url(./assets/hero.png)',
+      backgroundImage: 'url(./assets/CHEST.png)',
       backgroundPosition: `0px - ${TILE_SIZE}`,
-      animation: 'hero-animation 1s steps(4) infinite'
+      animation: 'chest-animation 1s steps(3) infinite'
     }}
     >
 

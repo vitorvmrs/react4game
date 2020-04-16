@@ -9,13 +9,13 @@ const Hero = () => {
     <div style={{
       position: 'absolute',
       bottom: TILE_SIZE * 2,
-      left: TILE_SIZE,
+      left: TILE_SIZE * 7,
       width: TILE_SIZE,
       height: 96,
       backgroundRepeat: 'no-repeat',
-      backgroundImage: 'url(./assets/hero.png)',
+      backgroundImage: 'url(./assets/TRAP.png)',
       backgroundPosition: `0px - ${TILE_SIZE}`,
-      animation: 'hero-animation 1s steps(4) infinite'
+      animation: 'trap-animation 1s steps(8) infinite'
     }}
     >
 
