@@ -1,13 +1,20 @@
-import React from 'react';
 import './App.css';
+
+import React from 'react';
+
+import { GAME_SIZE } from '../settings/constants';
+import Board from './Board';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="./assets/tileset.gif" alt=""/>
-      </header>
+      <div style={{ position: 'relative', width: GAME_SIZE, height: GAME_SIZE }}>
+        <Board />
+      </div>
+
     </div>
+
   );
 }
 
