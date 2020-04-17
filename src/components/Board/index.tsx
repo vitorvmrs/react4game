@@ -7,7 +7,7 @@ import Hero from '../Hero';
 import MiniDemon from '../MiniDemon';
 import Trap from '../Trap';
 
-const Board = () => {
+const Board: React.FC = () => {
 
   return (
     <div>

@@ -4,7 +4,7 @@ import React from 'react';
 
 import { DEMON_TILE_SIZE, TILE_SIZE } from '../../settings/constants';
 
-const Hero = () => {
+const Demon: React.FC = () => {
   return (
     <div style={{
       position: 'absolute',
@@ -22,4 +22,4 @@ const Hero = () => {
   );
 }
 
-export default Hero;
+export default Demon;
